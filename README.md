@@ -1,6 +1,6 @@
-# Keystone — Auth Frontend
+# Login Signup — Frontend
 
-React (Vite) frontend for the Keystone login/signup app. Talks to the backend API for signup, login, and the protected dashboard.
+React (Vite) frontend for the Login Signup app. Talks to the backend API for signup, login, and the protected dashboard.
 
 ## Setup
 
@@ -26,10 +26,10 @@ src/
 
 ## Deploying
 
-Set `VITE_API_URL` (e.g. on Vercel/Netlify) to point at your deployed backend, for example:
+Set `VITE_API_URL` in your hosting platform's environment variables (e.g. on Vercel/Netlify) to point at your deployed backend:
 
 ```
-VITE_API_URL=https://your-backend.onrender.com/api/auth
+VITE_API_URL=https://login-signup-backend-65ha.onrender.com/api/auth
 ```
 
 Then `npm run build` produces a static `dist/` folder ready to deploy.
